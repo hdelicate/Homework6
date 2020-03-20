@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Homework6.ContentView">
+    <StackLayout>
+        <Label Text="ContentView"
+               FontSize="50"
+               FontAttributes="Bold"
+               HorizontalOptions="Center" />
+
+        <ContentView BackgroundColor="Silver"
+                     Margin="10"
+                     Padding="25"
+                     HorizontalOptions="Fill"
+                     VerticalOptions="CenterAndExpand">
+            <Label Text=
+"This is a content view page. As you can see, it has a very exciting format. "
+                   TextColor="Purple" />
+        </ContentView>
+    </StackLayout>
+</ContentPage>
